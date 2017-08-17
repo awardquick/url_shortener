@@ -13,3 +13,28 @@
  *= require_tree .
  *= require_self
  */
+
+h1 {
+  position: relative;
+  font-family: 'Orbitron', sans-serif;
+  text-align: center;
+  top:200px;
+
+}
+body {
+  background-color:rgb(45, 110, 142);
+  color: white;
+}
+.new_url {
+  position: absolute;
+  left: 530px;
+  top: 300px;
+}
+
+#new_url > p.buttons > input[type="submit"] {
+  visibility: hidden;
+}
+
+p {
+  font-family: 'Orbitron', sans-serif;
+}
